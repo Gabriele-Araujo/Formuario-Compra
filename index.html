@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/caixa.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Pacote de Adesivos</title>
+</head>
+
+<body>
+    <main>
+       
+        <div class="formulario">
+            <form action="">
+
+                <h1>Formulário<br>Compra de pacote de adesivos</h1><br><br>
+
+                <div>
+                    <label class="labelInput">Quais adesivos:</label><br><br>
+
+                    <input type="checkbox" name="tipo" id="react" value="react">
+                    <label for="react">React</label> <br>
+
+                    <input type="checkbox" name="tipo" id="vue" value="vue">
+                    <label for="vue">Vue</label> <br>
+
+                    <input type="checkbox" name="tipo" id="angular" value="angular">
+                    <label for="angular">Angular</label> <br>
+                </div> <br><br>
+
+                <div class="inputBox">
+                    <label for="quantidade" class="labelInput">Quantos adesivos de cada?</label>
+                    <input type="number" name="quantidade" id="quantidade" class="inputQuantidade" min="0" max="200"required>
+                </div> <br><br>
+
+                <div class="inputBox">
+                    <label for="observacao" class="labelInput">Observações:</label>
+                    <textarea name="observacao" id="observacao" placeholder="Alguma dúvida? Recado?"></textarea>
+                </div> <br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
